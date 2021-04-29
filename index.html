@@ -1,369 +1,418 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <!--opengraph-->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="BMW 코리아">
+    <meta property="og:url" content="bmw 주소 넣을곳">
+    <meta property="og:image" content="images/og_img.png">
+    <meta property="og:description" content="BMW 코리아 리뉴얼">
+    <!--//opengraph-->
+    
+    <title>BMW 코리아</title>
+    
+    <!--link_css-->
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/ani.css" rel="stylesheet" type="text/css">
+    <link href="css/slick.css" rel="stylesheet" type="text/css">
+    
+    
+    
+    <!--link_favi-->
+    <link rel="shortcut icon" href="images/favi_img.ico">
+    
+    <!--link_font-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&family=Roboto&display=swap" rel="stylesheet">
+    
+    <!--script-->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/common.js"></script>
+    
+    
+    
 
-    <title>타이틀 작성</title>
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- IE8 에서 HTML5 요소와 미디어 쿼리를 위한 HTML5 shim 와 Respond.js -->
+    <!-- WARNING: Respond.js 는 당신이 file:// 을 통해 페이지를 볼 때는 동작하지 않습니다. -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
 </head>
+<body>
+   <div class="loader"><img src="images/bmw_logo-white.svg"></div>
 
-<body id="page-top" class="index">
-    <div class="top_bg">
-        <video src="img/portfolio/mv.mp4" autoplay loop muted></video>
-    </div>
-    
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#page-top">LOGO</a>
+    <div id="wrap">
+        <header id="header">
+           <div class="inner">
+               <h2><a href="#"><img src="images/bmw_logo-white.png" alt=BMW></a></h2>
+            <ul class="gnb">
+                <li><a href="#">Models</a></li>
+                <li><a href="#">Find &amp; Buy</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Magazine</a></li>
+                <li><a href="#">Event</a></li>
+            </ul>
+            <div class="util_box">
+                <ul class="util">
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+                <p>Sheer Driving Pleasure</p>
             </div>
+            <div class="m_menu"><img src="images/m_menu.png" alt="모바일메뉴"></div>
+           </div>
+                <div class="mgnb_wrap">
+                   <ul class="m_util">
+                       <li><a href="#"><img src="images/location_black.png" alt="위치"></a></li>
+                       <li><a href="#"><img src="images/contact_black.png" alt="안내"></a></li>
+                   </ul>
+                   <p>Sheer Driveing Pleasure</p>
+                   <i><a href="#"><img src="images/search_black.png" alt="검색"></a></i>
+                   <input type="text" name="id" class="id_input" value="Search" onclick="this.value='';"/>
+                    <ul class="m_gnb">
+                            <li><a href="#">Model</a></li>
+                            <li><a href="#">Find & Buy</a></li>
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">Magazine</a></li>
+                            <li><a href="#">Event</a></li>
+                        </ul>
+                        <p class="close"><a href="#"><img src="images/icon_close.png" alt="닫기"></a></p>
+                    </div> 
+        </header>
+        
+        <section id="main_visual">
+          <img src="images/main_visual.png" alt="메인">
+           <div class="mv_txt">
+            <h3>The Ultimate Driving Experience</h3>
+            <h2>BMW. Sheer Driving Pleasure</h2>
+            <p><a href="#">자세히 보기</a></p>
+            </div>
+        </section>
+        
+        <section id="sub_visual">
+           <div class="sub1">
+               <video src="images/Sequence%2001.mp4" autoplay muted loop class="video"></video>
+                <div class="sv_txt">
+                <h3>The all-new BMW 3 Series Sedan M Automobiles</h3>
+                <h2>THE M3</h2>
+                <p><a href="#">자세히 보기</a></p>
+                </div>
+            </div>
+            <div class="sub2">
+               <video src="images/sub_visual_m4.mp4" autoplay muted loop class="video"></video>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
+               
+                <div class="sv_txt">
+                <h3>The all-new BMW 4 Series Coupe M Automobiles</h3>
+                <h2>THE M4</h2>
+                <p><a href="#">자세히 보기</a></p>
+                </div>
+            </div>
+        </section>
+        <div class="line_11"></div>
+        <section id="sub_visual_2">
+            <div class="sub3">
+                <video src="images/sub_visual_ix.mp4" autoplay muted loop class="video"></video>
+                <div class="sv_txt">
+                <h3>DISCOVER - THE FUTURE HAS ARRIVED</h3>
+                <h2>THE iX</h2>
+                <p><a href="#">자세히 보기</a></p>
+                </div>
+            </div>
+            <div class="sub4-5">
+            <div class="sub4">
+                <video src="images/sub_visual_the5.mp4" autoplay muted loop class="video"></video>
+                <div class="sv_txt">
+                <h3>DISCOVER - LEAD THE CHANGE</h3>
+                <h2>THE 5</h2>
+                <p><a href="#">자세히 보기</a></p>
+                </div>
+            </div>
+            <div class="sub5">
+                <video src="images/sub_visual_the6.mp4" autoplay muted loop class="video"></video>
+                <div class="sv_txt">
+                <h3>DISCOVER - A DISTINCTIVE DECISION</h3>
+                <h2>THE 6</h2>
+                <p><a href="#">자세히 보기</a></p>
+                </div>
+            </div>
+            </div>
+            
+        </section>
+        
+        <div class="line_11"></div>
+        
+        <section id="shop">
+            <div class="shop_txt">
+                <h2>BMW SHOP<br class="s_none">ONLINE</h2>
+                <h3>오직 온라인에서만<br class="s_none">만나볼 수 있는 <br class="s_none_r"><span>BMW</span>를<br class="s_none"> 경험해보세요.</h3>
+                <p><a href="#">자세히 보기</a></p>
+            </div>
+            <div class="shop_slider">
+                <ul class="slider">
+                    <li>
+                        <a href="#">
+                        <img src="images/shop_1.png" alt="M3 컴페티션 퍼스트 에디션">
+                        </a>
+                        <p><span>M3</span> 컴페티션 퍼스트 에디션<br>￦ 130,700,000</p>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                    
+                    <li>
+                        <a href="#">
+                        <img src="images/shop_2.png" alt="M4 컴페티션 쿠페 퍼스트 에디션">
+                        </a>
+                        <p><span>M4</span> 컴페티션 쿠페 퍼스트 에디션<br>￦ 131,700,000</p>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#about">About ME</a>
+                    
+                    <li>
+                        <a href="#">
+                        <img src="images/shop_3.png" alt="M550i xDrive 브리티시 레이싱 그린">
+                        </a>
+                        <p><span>M550i</span> xDrive 브리티시 레이싱 그린<br>￦ 121,800,000</p>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#epilogue">Epilogue</a>
+                    
+                    <li>
+                        <a href="#">
+                        <img src="images/shop_4.png" alt="X5 xDrive 40i 온라인 익스클루시브">
+                        </a>
+                        <p><span>X5</span> xDrive 40i 온라인 익스클루시브<br>￦ 124,700,000</p>
                     </li>
+                    
+                    <li>
+                        <a href="#">
+                        <img src="images/shop_5.png" alt="X6 xDrive 40i 온라인 익스클루시브">
+                        </a>
+                        <p><span>X6</span> xDrive 40i 온라인 익스클루시브<br>￦ 127,700,000</p>
+                    </li>
+                    
+                    <li>
+                        <a href="#">
+                        <img src="images/shop_6.png" alt="M440i xDrive 쿠페 퍼스트 에디션">
+                        </a>
+                        <p><span>M440i</span> xDrive 쿠페 퍼스트 에디션<br>￦ 82,900,000</p>
+                    </li>
+                    
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+            
+        </section>
+        
+        <section id="all_models">
+            <div class="all_models_txt">
+                <h3>BMW in your life</h3>
+                <h2>ALL BMW MODELS</h2>
+                <p><a href="#">Find your BMW</a></p>
+            </div>
+        </section>
+        
+        <section id="contents1">
+            <div class="c1_1-2">
+                <div class="c1_1 ani-start-flipX ani_stop">
+                    <a href="#">
+                       <img src="images/c1_1.png" alt="MY BMW APPS">
+                        <p><span>MY BMW APPS</span><br>BMW로 더 즐거운 세상, <br class="none">MY BMW APPS를 만나보세요.</p>
+                    </a>
+                </div>
+                <div class="c1_2 ani-start-flipX ani_stop">
+                    <a href="#">
+                       <video src="images/con_v3.mp4" autoplay muted loop class="video"></video>
+                        <p><span>BMR DRIVING CENTER</span><br>전세계 최초 드라이빙 센터. <br class="none">드라이빙, 이상의 즐거움을 느껴보십시오.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="c1_3">
+                <a href="#">
+                       <img src="images/c1_3.png" alt="BMW SPECIAL OFFER">
+                        <p><span>BMW SPECIAL OFFER</span><br>BMW 3월 프로모션을 만나보세요.</p>
+                    </a>
+            </div>
+        </section>
+        
+        <div class="line_11 c_none"></div>
+        
+        
+        <section id="contents2">
+            <div class="c2_1 ani-start-flipX ani_stop">
+                    <a href="#">
+                       <img src="images/c2_1.png" alt="BMW digital sales platform">
+                        <p><span>BMW DIGITAL SALES PLATFORM</span><br>BMW 디지털 세일즈 플랫폼을 만나보십시오.</p>
+                    </a>
+                </div>
+                <div class="c2_2 ani-start-flipX ani_stop ani-delay-04">
+                    <a href="#">
+                       <video src="images/con_v2.mp4" autoplay muted loop class="video"></video>
+                        <p><span>BMW M</span><br>M. THE MOST POWERFUL LETTER <br class="none">IN THE WORLD.</p>
+                    </a>
+                </div>
+                <div class="c2_3 ani-start-flipX ani_stop ani-delay-08">
+                    <a href="#">
+                       <img src="images/c2_3.png" alt="BMW i">
+                        <p><span>BMW i</span><br>모든 BMW i 라인업 정보를 <br class="none">확인하실 수 있습니다.</p>
+                    </a>
+                </div>
+        </section>
+        
+        <div class="line_11"></div>
+        
+        <section id="contents3">
+           <div class="c3_1">
+                <a href="#">
+                       <img src="images/c3_1.png" alt="BMW LUXURY CLASS">
+                        <p><span>BMW LUXURY CLASS</span><br>훌륭함, 그 너머로. 용기가 이끄는 새로운 럭셔리.</p>
+                    </a>
+            </div>
+            <div class="c3_2-3">
+                <div class="c3_2 ani-start-flipX ani_stop">
+                    <a href="#">
+                       <img src="images/c3_2.png" alt="BMW PLUS">
+                        <p><span>BMW PLUS</span><br>이제 BMW의 프리미엄 서비스를 <br class="none">온라인으로 간편하게 예약해 보세요.</p>
+                    </a>
+                </div>
+                <div class="c3_3 ani-start-flipX ani_stop">
+                    <a href="#">
+                       <video src="images/con_v1.mp4" autoplay muted loop class="video"></video>
+                        <p><span>BMW FINANCIAL SERVICES</span><br>귀하에게 꼭 맞는 금융 솔루션과 <br class="none">투자 계획을 제공하는 성공 파트너.</p>
+                    </a>
+                </div>
+            </div>
+            
+        </section>
+        
+        <div class="line_11 c_none"></div>
+        
+        <section id="contents4">
+            <div class="c4_1 ani-start-flipX ani_stop ani-delay-08">
+                    <a href="#">
+                       <video src="images/con_v4.mp4" autoplay muted loop class="video"></video>
+                        <p><span>BMW CORPORATE SALES</span><br>BMW 법인 판매 및 Special Sales <br class="none">프로그램을 확인해 보세요.</p>
+                    </a>
+                </div>
+                <div class="c4_2 ani-start-flipX ani_stop ani-delay-04">
+                    <a href="#">
+                       <img src="images/c4_2.png" alt="BMW PRIME">
+                        <p><span>BMW PRIME</span><br>합리적인 가격의 차량관리 <br class="none">구독서비스를 체험해 보세요.</p>
+                    </a>
+                </div>
+                <div class="c4_3 ani-start-flipX ani_stop">
+                    <a href="#">
+                       <img src="images/c4_3.png" alt="BMW GROUP KOREA TRAINING ACADEMY">
+                        <p><span>BMW GROUP KOREA TRAINING ACADEMY</span><br>올바른 부품 사용법 및 수리 품질 <br class="none">향상을 위한 수리업체 대상 기술 교육.</p>
+                    </a>
+                </div>
+        </section>
+        
+        		<div class="more_box clearfix">
+			<div class="more_l clearfix">
+			
+				<div class="more_c m1 ani-start-flipX ani_stop">
+                <a href="#">
+                      <video src="images/con_v2.mp4" autoplay muted loop class="video"></video>
+                        <p><span>BMW M</span><br>M. THE MOST POWERFUL LETTER <br class="none">IN THE WORLD.</p>
+                       
+                    </a>
+                </div>
+            </div>
+			<div class="more_l clearfix">
+				<div class="more_c m2 ani-start-flipX ani_stop ani-delay-04">
+                <a href="#">
+                       <img src="images/c2_1.png" alt="BMW DIGITAL SALES PLATFORM">
+                        <p><span>BMW DIGITAL SALES PLATFORM</span><br>BMW 디지털 세일즈 플랫폼을 만나보십시오.</p>
+                    </a>
+                </div>
+			</div>
+			
+			<div class="more_l clearfix">
+				<div class="more_c m3 ani-start-flipX ani_stop">
+                <a href="#">
+                       <img src="images/c2_3.png" alt="BMW i">
+                        <p><span>BMW i</span><br>모든 BMW i 라인업 정보를 <br class="none">확인하실 수 있습니다.</p>
+                    </a>
+                </div>
+			</div>
+            
+            <div class="more_l clearfix">
+				<div class="more_c m4 ani-start-flipX ani_stop ani-delay-04">
+                <a href="#">
+                      <img src="images/c4_3.png" alt="BMW GROUP KOREA TRAINING ACADEMY">
+                        <p><span>BMW GROUP KOREA TRAINING ACADEMY</span><br>올바른 부품 사용법 및 수리 품질 <br class="none">향상을 위한 수리업체 대상 기술 교육.</p>
+                      
+                    </a>
+                </div>
+			</div>
+			
+            <div class="more_l clearfix">
+				<div class="more_c m5 ani-start-flipX ani_stop">
+                <a href="#">
+                       <img src="images/c4_2.png" alt="BMW PRIME">
+                        <p><span>BMW PRIME</span><br>합리적인 가격의 차량관리 <br class="none">구독서비스를 체험해 보세요.</p>
+                    </a>
+                </div>
+			</div>
+			
+			 <div class="more_l clearfix">
+				<div class="more_c m6 ani-start-flipX ani_stop ani-delay-04">
+                <a href="#">
+                        <video src="images/con_v4.mp4" autoplay muted loop class="video"></video>
+                        <p><span>BMW CORPORATE SALES</span><br>BMW 법인 판매 및 Special Sales <br class="none">프로그램을 확인해 보세요.</p>
+                    </a>
+                </div>
+			</div>
+		</div>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-text">
-                        <span class="name">My Name</span>
-                        <hr class="star-light">
-                        <span class="skills">UI/UX Designer &amp; Web Developer</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>UI/UX Portfolio</h2>
-                    <h3>Web Publishing, Responsive Web, Mobile UI/UX, Blog</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 portfolio-item">
-                    <a href="project/osulloc.html" class="portfolio-link" target="_blank">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/pf_thumb_04.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-6 portfolio-item">
-                    <a href="project/dadam.html" class="portfolio-link" target="_blank">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/pf_thumb_05.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Graphic Portfolio</h2>
-                    <h3>BI/BX Design, Visual Design, Editorial Design</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/pf_thumb_01.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/pf_thumb_02.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/pf_thumb_03.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About Me</h2>
-                    
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <ul class="profile">
-                        <li>Name : KIM MI MI</li>
-                        <li>Birth : 1999 12 25</li>
-                        <li>Mobile : 010-1234-5678</li>
-                        <li>e-mail : test@naver.com</li>
-                        <li><a href="#">https://test.github.io/portfolio</a></li>
-                        <li>부산 IT 교육센터 반응형 웹디자인&웹퍼블리싱 과정 수료</li>
+	<button class="btn loadMore clearfix">더 보기</button>
+        
+        <div class="line_11"></div>
+        
+        <footer id="footer">
+            <div class="footer_line"></div>
+            <ul class="footer_link">
+                <li>
+                    <ul class="footer_1">
+                        <li>BMW 코리아</li>
+                        <li><a href="#">인재 채용</a></li>
+                        <li><a href="#">BMW 컨택트</a></li>
+                        <li><a href="#">시스템 설정</a></li>
+                        <li><a href="#">소프트웨어 다운로드</a></li>
+                        <li><a href="#">법적고지</a></li>
+                        <li><a href="#">쿠키 정책</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">영상정보처리기기 운영 관리 방침</a></li>
+                        <li><a href="#">BMW의 모든 웹사이트</a></li>
+                        <li><a href="#">사이트 맵</a></li>
+                        <li class="copy">&copy; BMW Korea 2021</li>
                     </ul>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="skill">
-                      <li class="chart" data-percent="90"><span>90</span>Photoshop</li>
-                      <li class="chart" data-percent="80"><span>80</span>Illustrator</li>
-                      <li class="chart" data-percent="90"><span>90</span>HTML</li>
-                      <li class="chart" data-percent="70"><span>70</span>CSS</li>
-                      <li class="chart" data-percent="60"><span>60</span>jQuery</li>
-                      <li class="chart" data-percent="70"><span>70</span>XD</li>
-                      <li class="chart" data-percent="75"><span>75</span>Blog</li>
-                      <li class="chart" data-percent="95"><span>95</span>Office</li>
+                </li>
+                <li>
+                    <ul class="footer_2">
+                        <li>공지사항</li>
+                        <li><a href="#">BMW 멤버십 개인정보 이용 및 처리 방침 안내</a></li>
+                        <li><a href="#">외부감사인 변경선임 공고</a></li>
+                        <li><a href="#">BMW '개인정보처리방침'변경에 대한 안내</a></li>
+                        <li><a href="#">커넥티드 드라이브 ‘이용약관’ 개정 안내</a></li>
                     </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="epilogue">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Epilogue</h2>
-                    
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                   
-                    <p class="slogan">"A great secret of success is to go through life as a man who never gets used up."</p>
-                    <p>처음에는 포토샵이나 일러스트같은 기본적인 툴도 다룰 줄 모르는 초보자라<br>하나부터 열가지 다 배워야하는 것에 대해 부담도 느끼고, 여러가지 고민도 많았습니다.<br>
-                    차근차근 배워가며 나만의 작업물을 하나씩 완성해가다보니 점점 디자인이 재미있다는 생각이 들게 되었습니다.</p>
-                    
-                    
-                    <p>그 중에서도 포트폴리오 작업은 제가 지금까지 배우고, 만들었던 모든 것들을 집약하여 보여줄 수 있도록 하기 위해 노력을 많이 한 작업입니다.<br>
-                        '내가 할 수 있는 것을 하나라도 더 보여주고 싶다'는 마음에 작업물들을 계속 추가하고 수정하는 과정이 쉽지만은 않았지만<br>
-                        막상 결과물을 보니 처음 시작했을 때의 자신이 생각나면서 신기하기도 하고, 보람차다는 생각이 듭니다.</p>
-                    
-                    <p>아직 배운 것보다는 배울 것이 많은 초보 디자이너지만 최소한 스스로에게 부끄럽지 않은 결과물이 나올 수 있도록<br>항상 최선을 다하는 디자이너가 되고 싶습니다.</p>
-                    
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; My Website 2021
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-   
-   
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visible-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
+                </li>
+                <li>
+                    <ul class="footer_3">
+                        <li>연관채널</li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Youtube</a></li>
+                        <li><a href="#">BMW.com</a></li>
+                        <li class="copy2">&copy; BMW Korea 2021</li>
+                    </ul>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        
     </div>
-
-   
-   
-   
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="modal-body">
-                            <h2>Graphic Design</h2>
-                            
-                            <img src="img/portfolio/pf_01.jpg" class="img-responsive img-centered" alt="">
-                            <p>마몽드 로즈워터토너 상품을 주제로한 제품상세페이지 디자인</p>
-                            <ul class="list-inline item-details">
-                                <li>Software :
-                                    <strong>Photoshop CS6</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="modal-body">
-                            <h2>Graphic Design</h2>
-                            
-                            <img src="img/portfolio/pf_02.jpg" class="img-responsive img-centered" alt="">
-                            <p>미샤 슈퍼아쿠아 이벤트배너 디자인</p>
-                            <ul class="list-inline item-details">
-                                <li>Software :
-                                    <strong>Photoshop CS6</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="modal-body">
-                            <h2>Graphic Design</h2>
-                            
-                            <img src="img/portfolio/pf_03.jpg" class="img-responsive img-centered" alt="">
-                            <p>에뛰드하우스 볼륨마스카라 이벤트팝업 디자인</p>
-                            <ul class="list-inline item-details">
-                                <li>Software :
-                                    <strong>Photoshop CS6</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-    
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/freelancer.js"></script>
-    <script src="js/chart.js"></script>
-
 </body>
-
 </html>
